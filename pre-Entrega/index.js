@@ -1,0 +1,1 @@
+const ini = 4;
