@@ -1,5 +1,5 @@
 {
-  "name": "pre-entrega_fakestore-cli",
+  "name": "Pre-entrega_fakestore-cli",
   "version": "1.0.0",
   "description": "CLI para consumir la API FakeStore",
   "main": "index.js",
