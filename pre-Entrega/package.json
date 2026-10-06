@@ -6,13 +6,10 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "node --watch index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "nodemon": "^3.1.14"
-  }
+  "type": "module"
 }
