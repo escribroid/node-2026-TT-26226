@@ -98,10 +98,7 @@ const createProduct = async (title, price, category) => {
 
 const deleteProduct = async (id) => {
     const endpoint = `/products/${id}`;
-    return await fetchWithFallback({
-        primaryEndpoint: endpoint,
-        fallbackEndpoint: endpoint,
-        method: "DELETE",
+    return await fetchWithFallback({                   n 
     });
 };
 
