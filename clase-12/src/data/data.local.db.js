@@ -1,0 +1,39 @@
+// src/data/data.local.db.js
+
+export const products = [
+    {
+        id: 1,
+        nombre: "Laptop HP Pavilion",
+        categoria: "Electrónica",
+        precio: 850.0,
+        stock: 15,
+    },
+    {
+        id: 2,
+        nombre: "Silla de Oficina Ergonómica",
+        categoria: "Muebles",
+        precio: 120.5,
+        stock: 30,
+    },
+    {
+        id: 3,
+        nombre: "Cafetera Espresso",
+        categoria: "Electrodomésticos",
+        precio: 89.99,
+        stock: 0,
+    },
+    {
+        id: 4,
+        nombre: "Cuaderno Universitario A4",
+        categoria: "Papelería",
+        precio: 3.5,
+        stock: 200,
+    },
+    {
+        id: 5,
+        nombre: "Auriculares Bluetooth",
+        categoria: "Accesorios",
+        precio: 45.0,
+        stock: 75,
+    },
+];
