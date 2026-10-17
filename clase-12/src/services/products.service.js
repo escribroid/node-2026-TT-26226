@@ -3,19 +3,19 @@ import { products } from "../data/data.local.db.js";
 import * as productsModel from "../models/products.model.js";
 
 const getAllProducts = (req, res) => {
-    const { categoria, stock } = req.query;
+    const { category, stock } = req.query;
     console.log("Querys recibidos:", req.query);
 
     // Si no hay filtros, devuelve todos los productos
-    if (!categoria && !stock) {
+    if (!category && !stock) {
         return res.json(productos);
     }
 
     // Filtra según los parámetros recibidos
     let resultado = productos;
 
-    if (categoria) {
-        resultado = resultado.filter((p) => p.categoria === categoria);
+    if (category) {
+        resultado = resultado.filter((p) => p.categoria === category);
     }
 
     if (stock) {
